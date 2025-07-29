@@ -1,0 +1,32 @@
+Warning: Design 'seizure_top' has '2' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : area
+Design : seizure_top
+Version: U-2022.12
+Date   : Tue Jul 15 11:53:45 2025
+****************************************
+
+Library(s) Used:
+
+    tsl18fs120_typ (File: /tools/kits/tower/PDK_TS18SL/FS120_STD_Cells_0_18um_2005_12/DW_TOWER_tsl18fs120/2005.12/synopsys/2004.12/models/tsl18fs120_typ.db)
+
+Number of ports:                         5084
+Number of nets:                         13394
+Number of cells:                         8317
+Number of combinational cells:           6593
+Number of sequential cells:              1525
+Number of macros/black boxes:               0
+Number of buf/inv:                       1909
+Number of references:                       2
+
+Combinational area:              11987.500000
+Buf/Inv area:                     1440.500000
+Noncombinational area:            7799.250000
+Macro/Black Box area:                0.000000
+Net Interconnect area:            5482.192622
+
+Total cell area:                 19786.750000
+Total area:                      25268.942622
+
+Information: This design contains black box (unknown) components. (RPT-8)

@@ -1,0 +1,398 @@
+Warning: Design 'seizure_top' has '2' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : seizure_top
+Version: U-2022.12
+Date   : Tue Jul 15 11:52:43 2025
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: tsl18fs120_typ   Library: tsl18fs120_typ
+Wire Load Model Mode: enclosed
+
+  Startpoint: seizure_core/pc/std_calc_pos/DW_div_seq_full/b_reg_reg[1]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: seizure_core/pc/std_calc_pos/DW_div_seq_full/part_rem_reg_reg[7]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  seizure_top        35000                 tsl18fs120_typ
+  std_calc_0_DW_div_seq_0_DW_div_seq_1
+                     4000                  tsl18fs120_typ
+  std_calc_0_DW01_add_4_DW01_add_22
+                     ForQA                 tsl18fs120_typ
+  std_calc_0_DW01_add_5_DW01_add_23
+                     ForQA                 tsl18fs120_typ
+  std_calc_0_DW01_add_6_DW01_add_24
+                     ForQA                 tsl18fs120_typ
+  std_calc_0_DW01_add_7_DW01_add_25
+                     ForQA                 tsl18fs120_typ
+  std_calc_0_DW01_add_8_DW01_add_26
+                     ForQA                 tsl18fs120_typ
+  std_calc_0_DW01_add_9_DW01_add_27
+                     ForQA                 tsl18fs120_typ
+  std_calc_0_DW01_add_10_DW01_add_28
+                     ForQA                 tsl18fs120_typ
+  std_calc_0_DW01_add_11_DW01_add_29
+                     ForQA                 tsl18fs120_typ
+  std_calc_0_DW01_add_12_DW01_add_30
+                     4000                  tsl18fs120_typ
+  std_calc_0_DW01_add_13_DW01_add_31
+                     ForQA                 tsl18fs120_typ
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/b_reg_reg[1]/CP (deprq4)
+                                                          0.00 #     0.00 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/b_reg_reg[1]/Q (deprq4)
+                                                          0.33       0.33 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U20/ZN (invbdk)
+                                                          0.10       0.43 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_0/B[1] (std_calc_0_DW01_add_4_DW01_add_22)
+                                                          0.00       0.43 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_0/U1_1/CO (ad01d1)
+                                                          0.29       0.72 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_0/U32/ZN (nd12d2)
+                                                          0.07       0.79 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_0/U12/ZN (nd03d2)
+                                                          0.06       0.86 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_0/U31/ZN (nd12d2)
+                                                          0.07       0.92 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_0/U39/ZN (nd03d2)
+                                                          0.07       0.99 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_0/U15/CO (cg01d1)
+                                                          0.19       1.18 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_0/U1_5/CO (ad01d1)
+                                                          0.25       1.43 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_0/U41/ZN (nd02d2)
+                                                          0.07       1.50 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_0/U45/ZN (nd03d2)
+                                                          0.07       1.56 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_0/U16/CO (cg01d0)
+                                                          0.16       1.72 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_0/U30/ZN (nd12d2)
+                                                          0.14       1.86 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_0/CO (std_calc_0_DW01_add_4_DW01_add_22)
+                                                          0.00       1.86 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U135/ZN (nd12d2)
+                                                          0.07       1.93 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U140/ZN (nd02d2)
+                                                          0.07       2.00 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_1/A[1] (std_calc_0_DW01_add_5_DW01_add_23)
+                                                          0.00       2.00 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_1/U31/ZN (nd02d2)
+                                                          0.06       2.06 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_1/U36/ZN (nd03d2)
+                                                          0.10       2.16 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_1/U26/ZN (nd02d2)
+                                                          0.07       2.23 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_1/U39/ZN (nd03d2)
+                                                          0.09       2.33 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_1/U1_3/CO (ad01d1)
+                                                          0.25       2.58 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_1/U43/ZN (nd02d2)
+                                                          0.09       2.67 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_1/U22/ZN (nd03d2)
+                                                          0.10       2.77 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_1/U6/ZN (nd02d2)
+                                                          0.08       2.84 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_1/U23/ZN (nd03d2)
+                                                          0.07       2.91 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_1/U46/ZN (nd02d2)
+                                                          0.09       3.01 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_1/U11/ZN (nd03d2)
+                                                          0.08       3.08 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_1/U13/ZN (nd02d2)
+                                                          0.06       3.14 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_1/U10/ZN (oaim211d1)
+                                                          0.06       3.20 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_1/U34/ZN (nd12d2)
+                                                          0.12       3.32 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_1/CO (std_calc_0_DW01_add_5_DW01_add_23)
+                                                          0.00       3.32 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U87/Z (bufbd3)
+                                                          0.10       3.42 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U161/ZN (nd12d2)
+                                                          0.05       3.47 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U164/ZN (nd02d2)
+                                                          0.06       3.53 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_2/A[1] (std_calc_0_DW01_add_6_DW01_add_24)
+                                                          0.00       3.53 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_2/U30/ZN (nd02d1)
+                                                          0.09       3.62 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_2/U38/ZN (nd03d2)
+                                                          0.08       3.70 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_2/U7/CO (cg01d1)
+                                                          0.21       3.90 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_2/U1_3/CO (ad01d1)
+                                                          0.25       4.16 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_2/U9/ZN (nd12d2)
+                                                          0.08       4.24 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_2/U11/ZN (nd13d2)
+                                                          0.08       4.32 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_2/U28/ZN (nd02d2)
+                                                          0.09       4.41 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_2/U18/ZN (nd03d2)
+                                                          0.08       4.49 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_2/U19/ZN (nd02d2)
+                                                          0.07       4.56 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_2/U34/ZN (nd03d2)
+                                                          0.07       4.62 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_2/U8/CO (cg01d1)
+                                                          0.17       4.79 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_2/U15/ZN (nd12d2)
+                                                          0.12       4.90 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_2/CO (std_calc_0_DW01_add_6_DW01_add_24)
+                                                          0.00       4.90 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U35/Z (mx02d2)
+                                                          0.22       5.13 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_3/A[1] (std_calc_0_DW01_add_7_DW01_add_25)
+                                                          0.00       5.13 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_3/U12/ZN (invbd2)
+                                                          0.04       5.17 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_3/U11/ZN (aon211d1)
+                                                          0.08       5.25 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_3/U1_2/CO (ad01d2)
+                                                          0.30       5.55 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_3/U9/CO (cg01d1)
+                                                          0.18       5.73 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_3/U13/CO (cg01d1)
+                                                          0.17       5.90 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_3/U23/ZN (nd02d2)
+                                                          0.06       5.97 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_3/U30/ZN (nd03d2)
+                                                          0.09       6.05 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_3/U1_6/CO (ad01d1)
+                                                          0.25       6.30 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_3/U19/ZN (nd02d2)
+                                                          0.07       6.37 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_3/U18/ZN (nd03d2)
+                                                          0.07       6.44 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_3/U2/ZN (invbd2)
+                                                          0.04       6.48 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_3/U14/ZN (nd02d2)
+                                                          0.07       6.55 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_3/CO (std_calc_0_DW01_add_7_DW01_add_25)
+                                                          0.00       6.55 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U5/ZN (invbd2)
+                                                          0.06       6.61 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U17/Z (mx02d2)
+                                                          0.24       6.84 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_4/A[2] (std_calc_0_DW01_add_8_DW01_add_26)
+                                                          0.00       6.84 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_4/U12/CO (cg01d1)
+                                                          0.20       7.04 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_4/U8/CO (cg01d0)
+                                                          0.15       7.19 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_4/U28/CO (cg01d1)
+                                                          0.19       7.38 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_4/U39/ZN (nd12d2)
+                                                          0.08       7.46 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_4/U37/ZN (nd03d2)
+                                                          0.08       7.54 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_4/U29/ZN (nd12d2)
+                                                          0.08       7.62 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_4/U38/ZN (nd03d2)
+                                                          0.08       7.70 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_4/U47/ZN (nd02d2)
+                                                          0.07       7.76 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_4/U49/ZN (nd03d2)
+                                                          0.06       7.82 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_4/U51/ZN (nd12d2)
+                                                          0.13       7.95 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_4/CO (std_calc_0_DW01_add_8_DW01_add_26)
+                                                          0.00       7.95 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U150/ZN (nd12d2)
+                                                          0.06       8.02 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U158/ZN (nd02d2)
+                                                          0.07       8.08 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_5/A[1] (std_calc_0_DW01_add_9_DW01_add_27)
+                                                          0.00       8.08 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_5/U1_1/CO (ad01d1)
+                                                          0.25       8.33 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_5/U27/ZN (nd02d2)
+                                                          0.09       8.42 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_5/U11/ZN (nd03d2)
+                                                          0.08       8.50 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_5/U15/ZN (nd02d2)
+                                                          0.08       8.58 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_5/U32/ZN (nd03d2)
+                                                          0.08       8.66 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_5/U21/ZN (nd02d2)
+                                                          0.09       8.75 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_5/U7/ZN (nd03d2)
+                                                          0.08       8.84 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_5/U39/ZN (nd02d2)
+                                                          0.07       8.90 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_5/U40/ZN (nd03d2)
+                                                          0.09       8.99 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_5/U1_6/CO (ad01d1)
+                                                          0.25       9.24 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_5/U10/ZN (nd02d2)
+                                                          0.07       9.31 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_5/U9/ZN (nd03d2)
+                                                          0.06       9.37 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_5/U22/ZN (nd12d2)
+                                                          0.12       9.49 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_5/CO (std_calc_0_DW01_add_9_DW01_add_27)
+                                                          0.00       9.49 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U62/Z (mx02d2)
+                                                          0.23       9.72 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_6/A[1] (std_calc_0_DW01_add_10_DW01_add_28)
+                                                          0.00       9.72 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_6/U49/ZN (nd02d2)
+                                                          0.09       9.81 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_6/U17/ZN (nd03d2)
+                                                          0.08       9.89 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_6/U19/ZN (nd02d2)
+                                                          0.09       9.98 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_6/U15/ZN (nd03d2)
+                                                          0.08      10.06 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_6/U31/ZN (nd02d2)
+                                                          0.08      10.14 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_6/U45/ZN (nd03d2)
+                                                          0.08      10.22 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_6/U38/ZN (nd02d2)
+                                                          0.07      10.30 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_6/U41/ZN (nd03d2)
+                                                          0.09      10.39 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_6/U1_5/CO (ad01d1)
+                                                          0.25      10.64 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_6/U54/ZN (nd02d2)
+                                                          0.08      10.71 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_6/U56/ZN (nd03d2)
+                                                          0.07      10.79 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_6/U2/ZN (invbd2)
+                                                          0.04      10.83 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_6/U10/ZN (aon211d1)
+                                                          0.06      10.89 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_6/U35/ZN (nd12d2)
+                                                          0.14      11.03 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_6/CO (std_calc_0_DW01_add_10_DW01_add_28)
+                                                          0.00      11.03 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U63/Z (mx02d1)
+                                                          0.22      11.24 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_7/A[1] (std_calc_0_DW01_add_11_DW01_add_29)
+                                                          0.00      11.24 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_7/U2/ZN (invbd2)
+                                                          0.05      11.29 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_7/U13/ZN (aon211d1)
+                                                          0.06      11.35 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_7/U16/CO (cg01d1)
+                                                          0.22      11.56 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_7/U1_3/CO (ad01d1)
+                                                          0.24      11.80 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_7/U12/CO (cg01d1)
+                                                          0.18      11.98 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_7/U1_5/CO (ad01d4)
+                                                          0.28      12.27 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_7/U1_6/CO (ad01d1)
+                                                          0.25      12.52 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_7/U18/ZN (nd02d2)
+                                                          0.06      12.57 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_7/U10/ZN (nd04d1)
+                                                          0.11      12.68 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_7/CO (std_calc_0_DW01_add_11_DW01_add_29)
+                                                          0.00      12.68 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U146/Z (mx02d2)
+                                                          0.24      12.92 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_8/A[1] (std_calc_0_DW01_add_12_DW01_add_30)
+                                                          0.00      12.92 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_8/U41/ZN (nd02d2)
+                                                          0.08      13.00 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_8/U35/ZN (nd03d2)
+                                                          0.08      13.08 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_8/U37/ZN (nd02d2)
+                                                          0.07      13.15 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_8/U45/ZN (nd03d2)
+                                                          0.08      13.23 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_8/U48/ZN (nd02d2)
+                                                          0.07      13.30 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_8/U50/ZN (nd03d2)
+                                                          0.08      13.38 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_8/U34/ZN (nd02d2)
+                                                          0.07      13.45 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_8/U66/ZN (nd03d2)
+                                                          0.08      13.54 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_8/U54/ZN (nd02d2)
+                                                          0.09      13.62 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_8/U25/ZN (nd03d2)
+                                                          0.08      13.70 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_8/U29/ZN (nd02d2)
+                                                          0.07      13.77 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_8/U60/ZN (nd03d2)
+                                                          0.05      13.82 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_8/U4/CO (cg01d0)
+                                                          0.15      13.97 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_8/U19/ZN (nd12d2)
+                                                          0.14      14.11 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_8/CO (std_calc_0_DW01_add_12_DW01_add_30)
+                                                          0.00      14.11 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U148/ZN (nd12d2)
+                                                          0.07      14.18 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U92/ZN (nd02d2)
+                                                          0.06      14.23 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_9/A[1] (std_calc_0_DW01_add_13_DW01_add_31)
+                                                          0.00      14.23 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_9/U23/CO (cg01d1)
+                                                          0.16      14.39 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_9/U24/CO (cg01d1)
+                                                          0.18      14.58 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_9/U1_3/CO (ad01d1)
+                                                          0.25      14.82 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_9/U34/ZN (nd02d2)
+                                                          0.08      14.90 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_9/U29/ZN (nd03d2)
+                                                          0.09      14.99 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_9/U32/ZN (nd02d2)
+                                                          0.08      15.08 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_9/U45/ZN (nd03d2)
+                                                          0.08      15.16 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_9/U36/ZN (nd02d2)
+                                                          0.08      15.24 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_9/U38/ZN (nd03d2)
+                                                          0.08      15.33 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_9/U13/ZN (nd02d1)
+                                                          0.08      15.40 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_9/U18/ZN (nd04d1)
+                                                          0.10      15.50 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U_ADD_9/CO (std_calc_0_DW01_add_13_DW01_add_31)
+                                                          0.00      15.50 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U71/ZN (invbd2)
+                                                          0.09      15.59 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U118/ZN (nd12d2)
+                                                          0.07      15.66 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U116/ZN (invbd4)
+                                                          0.06      15.72 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U342/ZN (aoi22d1)
+                                                          0.05      15.77 f
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/U115/ZN (oaim21d1)
+                                                          0.08      15.86 r
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/part_rem_reg_reg[7]/D (dfcrq4)
+                                                          0.00      15.86 r
+  data arrival time                                                 15.86
+
+  clock CLK (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  seizure_core/pc/std_calc_pos/DW_div_seq_full/part_rem_reg_reg[7]/CP (dfcrq4)
+                                                          0.00      10.00 r
+  library setup time                                     -0.10       9.90
+  data required time                                                 9.90
+  --------------------------------------------------------------------------
+  data required time                                                 9.90
+  data arrival time                                                -15.86
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -5.95
+
+

@@ -1,0 +1,232 @@
+Loading db file '/tools/kits/tower/PDK_TS18SL/FS120_STD_Cells_0_18um_2005_12/DW_TOWER_tsl18fs120/2005.12/synopsys/2004.12/models/tsl18fs120_typ.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+Warning: Design has unannotated black box outputs. (PWR-428)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : seizure_top
+Version: U-2022.12
+Date   : Tue Jul 15 11:56:21 2025
+****************************************
+
+
+Library(s) Used:
+
+    tsl18fs120_typ (File: /tools/kits/tower/PDK_TS18SL/FS120_STD_Cells_0_18um_2005_12/DW_TOWER_tsl18fs120/2005.12/synopsys/2004.12/models/tsl18fs120_typ.db)
+
+
+Operating Conditions: tsl18fs120_typ   Library: tsl18fs120_typ
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+seizure_top            35000             tsl18fs120_typ
+seizure_regfile_DATA_WIDTH18_ADDR_WIDTH8_MCMC_DATA_WIDTH72_MCMC_ADDR_WIDTH2048
+                       4000              tsl18fs120_typ
+seizure_core           35000             tsl18fs120_typ
+global_fsm             ForQA             tsl18fs120_typ
+param_calc             16000             tsl18fs120_typ
+mcmc                   4000              tsl18fs120_typ
+dctc                   4000              tsl18fs120_typ
+mean_calc_0            4000              tsl18fs120_typ
+std_calc_0             8000              tsl18fs120_typ
+mean_calc_1            4000              tsl18fs120_typ
+std_calc_1             8000              tsl18fs120_typ
+dctc_DW01_inc_0_DW01_inc_2
+                       ForQA             tsl18fs120_typ
+dctc_DW01_add_0        ForQA             tsl18fs120_typ
+dctc_DW01_sub_0        4000              tsl18fs120_typ
+dctc_DW01_sub_1        4000              tsl18fs120_typ
+dctc_DW01_cmp6_0       4000              tsl18fs120_typ
+param_calc_DW01_add_0_DW01_add_1
+                       ForQA             tsl18fs120_typ
+param_calc_DW01_inc_0_DW01_inc_3
+                       ForQA             tsl18fs120_typ
+param_calc_DW01_inc_1_DW01_inc_4
+                       ForQA             tsl18fs120_typ
+param_calc_DW01_inc_2_DW01_inc_5
+                       ForQA             tsl18fs120_typ
+std_calc_1_DW_sqrt_seq_0
+                       4000              tsl18fs120_typ
+std_calc_1_DW01_add_0_DW01_add_2
+                       ForQA             tsl18fs120_typ
+std_calc_1_DW01_add_1_DW01_add_3
+                       ForQA             tsl18fs120_typ
+std_calc_1_DW01_add_2_DW01_add_4
+                       ForQA             tsl18fs120_typ
+std_calc_1_DW01_add_3_DW01_add_5
+                       ForQA             tsl18fs120_typ
+std_calc_1_DW_div_seq_0
+                       4000              tsl18fs120_typ
+std_calc_1_DW01_add_4_DW01_add_6
+                       ForQA             tsl18fs120_typ
+std_calc_1_DW01_add_5_DW01_add_7
+                       ForQA             tsl18fs120_typ
+std_calc_1_DW01_add_6_DW01_add_8
+                       ForQA             tsl18fs120_typ
+std_calc_1_DW01_add_7_DW01_add_9
+                       ForQA             tsl18fs120_typ
+std_calc_1_DW01_add_8_DW01_add_10
+                       ForQA             tsl18fs120_typ
+std_calc_1_DW01_add_9_DW01_add_11
+                       ForQA             tsl18fs120_typ
+std_calc_1_DW01_add_10_DW01_add_12
+                       ForQA             tsl18fs120_typ
+std_calc_1_DW01_add_11_DW01_add_13
+                       ForQA             tsl18fs120_typ
+std_calc_1_DW01_add_12_DW01_add_14
+                       ForQA             tsl18fs120_typ
+std_calc_1_DW01_add_13_DW01_add_15
+                       ForQA             tsl18fs120_typ
+std_calc_1_DW01_add_14_DW01_add_16
+                       4000              tsl18fs120_typ
+std_calc_1_DW_mult_seq_0
+                       4000              tsl18fs120_typ
+std_calc_1_DW02_tree_0 4000              tsl18fs120_typ
+std_calc_1_DW01_add_15_DW01_add_17
+                       4000              tsl18fs120_typ
+std_calc_1_DW01_sub_0_DW01_sub_2
+                       ForQA             tsl18fs120_typ
+std_calc_1_DW01_sub_1_DW01_sub_3
+                       ForQA             tsl18fs120_typ
+std_calc_0_DW_sqrt_seq_0_DW_sqrt_seq_1
+                       4000              tsl18fs120_typ
+std_calc_0_DW01_add_0_DW01_add_18
+                       ForQA             tsl18fs120_typ
+std_calc_0_DW01_add_1_DW01_add_19
+                       ForQA             tsl18fs120_typ
+std_calc_0_DW01_add_2_DW01_add_20
+                       ForQA             tsl18fs120_typ
+std_calc_0_DW01_add_3_DW01_add_21
+                       ForQA             tsl18fs120_typ
+std_calc_0_DW_div_seq_0_DW_div_seq_1
+                       4000              tsl18fs120_typ
+std_calc_0_DW01_add_4_DW01_add_22
+                       ForQA             tsl18fs120_typ
+std_calc_0_DW01_add_5_DW01_add_23
+                       ForQA             tsl18fs120_typ
+std_calc_0_DW01_add_6_DW01_add_24
+                       ForQA             tsl18fs120_typ
+std_calc_0_DW01_add_7_DW01_add_25
+                       ForQA             tsl18fs120_typ
+std_calc_0_DW01_add_8_DW01_add_26
+                       ForQA             tsl18fs120_typ
+std_calc_0_DW01_add_9_DW01_add_27
+                       ForQA             tsl18fs120_typ
+std_calc_0_DW01_add_10_DW01_add_28
+                       ForQA             tsl18fs120_typ
+std_calc_0_DW01_add_11_DW01_add_29
+                       ForQA             tsl18fs120_typ
+std_calc_0_DW01_add_12_DW01_add_30
+                       4000              tsl18fs120_typ
+std_calc_0_DW01_add_13_DW01_add_31
+                       ForQA             tsl18fs120_typ
+std_calc_0_DW01_add_14_DW01_add_32
+                       4000              tsl18fs120_typ
+std_calc_0_DW_mult_seq_0_DW_mult_seq_1
+                       4000              tsl18fs120_typ
+std_calc_0_DW02_tree_0_DW02_tree_1
+                       4000              tsl18fs120_typ
+std_calc_0_DW01_add_15_DW01_add_33
+                       4000              tsl18fs120_typ
+std_calc_0_DW01_sub_0_DW01_sub_4
+                       ForQA             tsl18fs120_typ
+std_calc_0_DW01_sub_1_DW01_sub_5
+                       ForQA             tsl18fs120_typ
+mean_calc_1_DW_div_seq_0_DW_div_seq_2
+                       4000              tsl18fs120_typ
+mean_calc_1_DW01_add_0_DW01_add_34
+                       ForQA             tsl18fs120_typ
+mean_calc_1_DW01_add_1_DW01_add_35
+                       ForQA             tsl18fs120_typ
+mean_calc_1_DW01_add_2_DW01_add_36
+                       ForQA             tsl18fs120_typ
+mean_calc_1_DW01_add_3_DW01_add_37
+                       ForQA             tsl18fs120_typ
+mean_calc_1_DW01_add_4_DW01_add_38
+                       ForQA             tsl18fs120_typ
+mean_calc_1_DW01_add_5_DW01_add_39
+                       ForQA             tsl18fs120_typ
+mean_calc_1_DW01_add_6_DW01_add_40
+                       ForQA             tsl18fs120_typ
+mean_calc_1_DW01_add_7_DW01_add_41
+                       ForQA             tsl18fs120_typ
+mean_calc_1_DW01_inc_0_DW01_inc_6
+                       ForQA             tsl18fs120_typ
+mean_calc_1_DW01_add_8_DW01_add_42
+                       4000              tsl18fs120_typ
+mean_calc_0_DW_div_seq_0_DW_div_seq_3
+                       4000              tsl18fs120_typ
+mean_calc_0_DW01_add_0_DW01_add_43
+                       ForQA             tsl18fs120_typ
+mean_calc_0_DW01_add_1_DW01_add_44
+                       ForQA             tsl18fs120_typ
+mean_calc_0_DW01_add_2_DW01_add_45
+                       ForQA             tsl18fs120_typ
+mean_calc_0_DW01_add_3_DW01_add_46
+                       ForQA             tsl18fs120_typ
+mean_calc_0_DW01_add_4_DW01_add_47
+                       ForQA             tsl18fs120_typ
+mean_calc_0_DW01_add_5_DW01_add_48
+                       ForQA             tsl18fs120_typ
+mean_calc_0_DW01_add_6_DW01_add_49
+                       ForQA             tsl18fs120_typ
+mean_calc_0_DW01_add_7_DW01_add_50
+                       ForQA             tsl18fs120_typ
+mean_calc_0_DW01_inc_0_DW01_inc_7
+                       ForQA             tsl18fs120_typ
+mean_calc_0_DW01_add_8_DW01_add_51
+                       4000              tsl18fs120_typ
+dctc_DW01_add_1_DW01_add_52
+                       ForQA             tsl18fs120_typ
+dctc_DW01_add_2_DW01_add_53
+                       ForQA             tsl18fs120_typ
+dctc_DW01_add_3_DW01_add_54
+                       ForQA             tsl18fs120_typ
+dctc_DW01_add_4_DW01_add_55
+                       ForQA             tsl18fs120_typ
+dctc_DW01_add_5_DW01_add_56
+                       ForQA             tsl18fs120_typ
+dctc_DW01_add_6_DW01_add_57
+                       ForQA             tsl18fs120_typ
+dctc_DW01_add_7_DW01_add_58
+                       ForQA             tsl18fs120_typ
+
+
+Global Operating Voltage = 1.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =  11.8190 mW   (95%)
+  Net Switching Power  = 594.3740 uW    (5%)
+                         ---------
+Total Dynamic Power    =  12.4133 mW  (100%)
+
+Cell Leakage Power     = 463.5934 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network     11.6076        1.0316e-02        6.1806e+03           11.6179  (  93.59%)  i
+register           0.1042        1.8141e-02        1.8376e+05            0.1225  (   0.99%)
+sequential     7.9556e-03        2.5208e-04          997.1720        8.2087e-03  (   0.07%)
+combinational  9.9274e-02            0.5657        2.7265e+05            0.6652  (   5.36%)
+--------------------------------------------------------------------------------------------------
+Total             11.8190 mW         0.5944 mW     4.6359e+05 pW        12.4138 mW
